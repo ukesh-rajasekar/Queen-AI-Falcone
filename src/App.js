@@ -27,10 +27,10 @@ function App() {
                      <Route exact path='/Queen-AI-Falcone/'>
                         <About />
                      </Route>
-                     <Route exact path='Queen-AI-Falcone/find'>
+                     <Route exact path='/Queen-AI-Falcone/find'>
                         <FindFalcone />
                      </Route>
-                     <Route exact path='Queen-AI-Falcone/result'>
+                     <Route exact path='/Queen-AI-Falcone/result'>
                         <Result />
                      </Route>
                   </Switch>

@@ -10,7 +10,7 @@ export default function Result() {
 
    const history = useHistory();
    const goFind = () => {
-      history.push('/find');
+      history.push('/Queen-AI-Falcone/find');
    };
 
    useEffect(() => {

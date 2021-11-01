@@ -30,7 +30,7 @@ export default function Search() {
 
       doPost('find', payload);
 
-      history.push('/result');
+      history.push('/Queen-AI-Falcone/result');
    };
    return (
       <div>

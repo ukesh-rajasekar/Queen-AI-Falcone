@@ -14,10 +14,14 @@ export default function NavBar() {
                <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
                   Finding Falcone!
                </Typography>
-               <Button color='inherit' component={Link} to='/'>
+               <Button color='inherit' component={Link} to='/Queen-AI-Falcone/'>
                   Read Rules
                </Button>
-               <Button color='inherit' component={Link} to='/find'>
+               <Button
+                  color='inherit'
+                  component={Link}
+                  to='/Queen-AI-Falcone/find'
+               >
                   Find
                </Button>
             </Toolbar>

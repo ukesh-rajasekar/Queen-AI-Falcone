@@ -24,13 +24,13 @@ function App() {
                   <NavBar />
 
                   <Switch>
-                     <Route exact path='/'>
+                     <Route exact path='/Queen-AI-Falcone/'>
                         <About />
                      </Route>
-                     <Route exact path='/find'>
+                     <Route exact path='Queen-AI-Falcone/find'>
                         <FindFalcone />
                      </Route>
-                     <Route exact path='/result'>
+                     <Route exact path='Queen-AI-Falcone/result'>
                         <Result />
                      </Route>
                   </Switch>
